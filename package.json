@@ -1,0 +1,29 @@
+{
+  "name": "ssebsshare",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "description": "- Set `client/src/App.js` `io.connect` line to your server name, or localhost\r - ```bash\r   $ npm install\r   $ cd client\r   $ npm install\r   $ npm run build\r   $ cd ..\r   $ npm run start\r   ```",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssebs/ssebsshare.git"
+  },
+  "keywords": [
+    "webrtc",
+    "ssebs",
+    "screenshare"
+  ],
+  "author": "Sebastian Safari",
+  "bugs": {
+    "url": "https://github.com/ssebs/ssebsshare/issues"
+  },
+  "homepage": "https://github.com/ssebs/ssebsshare#readme"
+}
